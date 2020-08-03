@@ -15,7 +15,7 @@
   "homepage": "/",
   "scripts": {
     "deploy": "yarn build && ./node_modules/.bin/gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "node server.js",
     "serve": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
