@@ -1,5 +1,5 @@
 runtime: custom
-service: myservice
+service: default
 env: flex
 instance_class: F1
 threadsafe: true
