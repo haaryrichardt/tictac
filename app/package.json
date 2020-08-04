@@ -12,6 +12,7 @@
     "react-scripts": "3.4.1",
     "sweetalert2": "^9.15.1",
     "express": "^4.17.1",
+    "path": "^0.12.7",
     "lodash": "^4.17.15",
     "serve": "^11.3.2"
   },
