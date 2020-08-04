@@ -10,12 +10,15 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "sweetalert2": "^9.15.1"
+    "sweetalert2": "^9.15.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "serve": "^11.3.2"
   },
   "homepage": "/",
   "scripts": {
     "deploy": "yarn build && ./node_modules/.bin/gh-pages -d build",
-    "start": "node server.js",
+    "start": "node app.js",
     "serve": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
