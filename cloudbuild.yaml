@@ -4,7 +4,8 @@ steps:
   args: [ 'install' ]
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy","app/app.yaml"]
-  timeout: 800s
+  
+timeout: 800s
 
 #images:
 #- 'gcr.io/$PROJECT_ID/tictac-image'
